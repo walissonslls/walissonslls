@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Site Aleatório</title>
+		<link rel="stylesheet" href="css.css">
+	</head>
+  <style>
+body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #000000;
+            padding: 50px;
+        }
+
+h1 {
+            color: #333;
+        }
+
+p {
+            font-size: 18px;
+            color: #666;
+        }
+
+.container {
+	background: white;
+	padding: 20px;
+	border-radius: 30px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	display: inline-block;
+        }
+	
+button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            background-color: 	#800000;
+            color: white;
+            border-radius: 5px;
+		}
+		
+button:hover {
+            background-color: 		#A52A2A;
+       }
+  </style>
+	<body>
+		<div class="container">
+		<h1>OI AMOR</h1>
+		<h3>Criei esse site pra te presentear do "meu jeitinho, sabe..."</h3>
+		<p>Bom, para dar continuidade na visualização do seu presente, clique aqui:</p>
+		<button onclick="mudarMensagem()">♥️♥️♥️♥️</button>
+		<p id="mensagem"></p>
+		</div>
+
+		<script>
+        function mudarMensagem() {
+            document.getElementById("mensagem").innerText = "Você clicou no botão!";
+        }
+		</script>
+	</body>
+</html>
