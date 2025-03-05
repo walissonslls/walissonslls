@@ -6,46 +6,6 @@
 		<title>Site Aleatório</title>
 		<link rel="stylesheet" href="css.css">
 	</head>
-  <style>
-body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #000000;
-            padding: 50px;
-        }
-
-h1 {
-            color: #333;
-        }
-
-p {
-            font-size: 18px;
-            color: #666;
-        }
-
-.container {
-	background: white;
-	padding: 20px;
-	border-radius: 30px;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-	display: inline-block;
-        }
-	
-button {
-            margin-top: 20px;
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            border: none;
-            background-color: 	#800000;
-            color: white;
-            border-radius: 5px;
-		}
-		
-button:hover {
-            background-color: 		#A52A2A;
-       }
-  </style>
 	<body>
 		<div class="container">
 		<h1>OI AMOR</h1>
